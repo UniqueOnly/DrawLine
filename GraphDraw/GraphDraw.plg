@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GraphDraw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GraphDraw.res" /d "_DEBUG" "F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\GraphDraw.rc"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP8DCD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\Draw.cpp"
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\GraphDraw.cpp"
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\GraphDrawDoc.cpp"
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\GraphDrawView.cpp"
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\InputDialog.cpp"
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\MainFrm.cpp"
+]
+Creating command line "cl.exe @"C:\Users\云\AppData\Local\Temp\RSP8DCD.tmp"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP8DCE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/GraphDraw.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Visual+C+++6[1].0（支持win7）\Microsoft Visual Studio\MyProjects\GraphDraw\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\云\AppData\Local\Temp\RSP8DCE.tmp"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP8DCF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GraphDraw  v1.0.pdb" /debug /machine:I386 /out:"Debug/GraphDraw  v1.0.exe" /pdbtype:sept 
+".\Debug\Draw.obj"
+".\Debug\GraphDraw.obj"
+".\Debug\GraphDrawDoc.obj"
+".\Debug\GraphDrawView.obj"
+".\Debug\InputDialog.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GraphDraw.res"
+]
+Creating command line "link.exe @"C:\Users\云\AppData\Local\Temp\RSP8DCF.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Draw.cpp
+f:\visual+c+++6[1].0（支持win7）\microsoft visual studio\myprojects\graphdraw\draw.cpp(50) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+f:\visual+c+++6[1].0（支持win7）\microsoft visual studio\myprojects\graphdraw\draw.cpp(55) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+f:\visual+c+++6[1].0（支持win7）\microsoft visual studio\myprojects\graphdraw\draw.cpp(59) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+f:\visual+c+++6[1].0（支持win7）\microsoft visual studio\myprojects\graphdraw\draw.cpp(64) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+GraphDraw.cpp
+GraphDrawDoc.cpp
+GraphDrawView.cpp
+InputDialog.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/GraphDraw.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Draw.sbr" ".\Debug\GraphDraw.sbr" ".\Debug\GraphDrawDoc.sbr" ".\Debug\GraphDrawView.sbr" ".\Debug\InputDialog.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GraphDraw  v1.0.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
